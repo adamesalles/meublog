@@ -14,10 +14,11 @@
       {{ page.content | safe }}
     </div>
     <div class="feat share">
-      <a href="http://twitter.com/share" class="popup">
+      <a href="https://twitter.com/intent/tweet?url={{ current_url }}" class="popup">
       <span class="icon-twitter"></span>
       </a>
     </div>
+    <div id="disqus_thread"></div>
     {% if page.later %}
     <a rel="next" href="{{ page.later.permalink }}" id="next">
       <span class="nav-title nav-title-next">Próximo</span> &rarr;
@@ -30,4 +31,18 @@
     {% endif %}
   </article>
 </section>
+<script>
+
+var disqus_config = function () {
+this.page.url = config.current_url;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = config.current_path ; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://https-eduadame-netlify-app.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
 {% endblock main %}
