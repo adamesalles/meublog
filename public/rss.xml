@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Eduardo Adame</title>
+        <link>http://127.0.0.1:1111</link>
+        <description>Um blog para matemáticos e informáticos de plantão</description>
+        <generator>Zola</generator>
+        <language>pt</language>
+        <atom:link href="http://127.0.0.1:1111/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Sun, 07 Jun 2020 15:02:00 +0000</lastBuildDate>
+        
+            <item>
+                <title>Hello World - Seja bem-vindo ao novo blog</title>
+                <pubDate>Sun, 07 Jun 2020 15:02:00 +0000</pubDate>
+                <link>http://127.0.0.1:1111/helloworld/</link>
+                <guid>http://127.0.0.1:1111/helloworld/</guid>
+                <description>&lt;h1 id=&quot;ola-mundo&quot;&gt;Olá mundo&lt;&#x2F;h1&gt;
+&lt;p&gt;&amp;quot;Hello World&amp;quot;, não é o que nós falamos toda vez que começamos em uma nova tecnologia? Pois bem, hoje estou embarcando em uma novíssima para mim, mas que tenho vontade há anos, um blog. Para deixar registrado, estou fazendo esta primeira postagem junto com o &amp;quot;lançamento&amp;quot; dele à web.&lt;&#x2F;p&gt;
+&lt;p&gt;Eu não diria que sou o melhor escritor, ou o melhor conhecedor da gramática de nossa língua. Mas gosto muito de divulgar diversos tipos de conteúdo. Ainda tenho que descobrir como funcionará o buscador, uma vez que estou realizando tudo de uma forma gratuita.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;a-criacao-do-blog-de-facto&quot;&gt;A criação do blog (de facto)&lt;&#x2F;h2&gt;
+&lt;p&gt;Eu estava zanzando pela internet quando me deparei com um vídeo antigo do codeshow ensinando a criar um blog com &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt;, sendo sincero, ele era de 1h e eu não prestei muita atenção, assim comecei a estudar sobre ele, e em poucos minutos já criei um localmente. Porém, tive diversos problemas, principalmente com os temas. Cada tema tinha uma proposta diferente, e eu buscava &amp;quot;um pouco de cada&amp;quot;, porém, não encontrei. Até que comecei a modificar temas, quebrei vários, até que cheguei neste atual, que só não consegui implementar o sistema de tags, categorias, e busca (possiveis com Zola), mas acreditei que poderia começar sem eles.&lt;&#x2F;p&gt;
+&lt;p&gt;O site funciona da forma estática, ou seja, eu acrescento uma página (escrita em código) cada vez que quiser publicar algo, mas dessa forma, eu consigo manter ele na internet sem custos, mesmo com as devidas limitações. Portanto, terei de usar o &lt;a href=&quot;https:&#x2F;&#x2F;www.netlify.com&#x2F;&quot;&gt;Netlify&lt;&#x2F;a&gt;, com o pacote gratuito. Caso algum dia eu consiga implementar comentários, ou até alguma forma de monetizar, eu posso adquirir algum plano, e comprar um domínio.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;funcionalidades&quot;&gt;Funcionalidades&lt;&#x2F;h3&gt;
+&lt;p&gt;Por cada post ser escrito em Markdown, existem diversas funcionalidades disponíveis para cada publicação.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;Como, adicionar códigos de diversas linguagens, com highlighting (colorindo as palavras, vulgarmente).&lt;&#x2F;p&gt;
+&lt;p&gt;Por exemplo, essa é a sintaxe da definição de uma função em Python:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#191919;&quot;&gt;
+&lt;span style=&quot;font-style:italic;color:#fbdfb5;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8cdaff;&quot;&gt;function&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;():&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+	&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff5e5e;&quot;&gt;return&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Assim como, códigos de textos em $\LaTeX$:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#191919;&quot;&gt;
+&lt;span style=&quot;color:#ff5e5e;&quot;&gt;\documentclass&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;[12pt,a4paper]{&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fbe3bf;&quot;&gt;article&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff5e5e;&quot;&gt;\usepackage&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;[utf8]{&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fbe3bf;&quot;&gt;inputenc&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff5e5e;&quot;&gt;\usepackage&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;[portuguese]{&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fbe3bf;&quot;&gt;babel&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff5e5e;&quot;&gt;\usepackage&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;[T1]{&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fbe3bf;&quot;&gt;fontenc&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff5e5e;&quot;&gt;\usepackage&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;{&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fbe3bf;&quot;&gt;amsmath&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff5e5e;&quot;&gt;\usepackage&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;{&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fbe3bf;&quot;&gt;amsfonts&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff5e5e;&quot;&gt;\usepackage&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;{&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fbe3bf;&quot;&gt;amssymb&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff5e5e;&quot;&gt;\usepackage&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;{&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fbe3bf;&quot;&gt;graphicx&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff5e5e;&quot;&gt;\usepackage&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;{&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fbe3bf;&quot;&gt;lipsum&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff5e5e;&quot;&gt;\usepackage&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;{&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fbe3bf;&quot;&gt;indentfirst&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff5e5e;&quot;&gt;\usepackage&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;{&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fbe3bf;&quot;&gt;wrapfig&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff5e5e;&quot;&gt;\usepackage&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;{&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fbe3bf;&quot;&gt;multirow&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff5e5e;&quot;&gt;\usepackage&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;{&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fbe3bf;&quot;&gt;geometry&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff5e5e;&quot;&gt;\usepackage&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;[table,xcdraw]{&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fbe3bf;&quot;&gt;xcolor&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6699cc;&quot;&gt;\author&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;{Eduardo Adame}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6699cc;&quot;&gt;\title&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;{Aulas de LaTeX}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6699cc;&quot;&gt;\date&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;{Ontem}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff5e5e;&quot;&gt;\begin&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;{&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#d0d0d0;&quot;&gt;document&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6699cc;&quot;&gt;\tableofcontents&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6699cc;&quot;&gt;\listoffigures&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6699cc;&quot;&gt;\newpage&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6699cc;&quot;&gt;\section&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;{Aula 1-3}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6699cc;&quot;&gt;\subsection&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;{Listas}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff5e5e;&quot;&gt;\begin&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;{&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#d0d0d0;&quot;&gt;itemize&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6699cc;&quot;&gt;\item&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt; Este é meu primeiro item.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6699cc;&quot;&gt;\item&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt; Este é meu segundo item.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff5e5e;&quot;&gt;\end&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;{&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#d0d0d0;&quot;&gt;itemize&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff5e5e;&quot;&gt;\begin&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;{&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#d0d0d0;&quot;&gt;enumerate&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6699cc;&quot;&gt;\item&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt; Este é o 1.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6699cc;&quot;&gt;\item&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt; Este é o 2.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff5e5e;&quot;&gt;\end&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;{&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#d0d0d0;&quot;&gt;enumerate&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffffff;&quot;&gt;$$ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e9fdac;&quot;&gt;x&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff5e5e;&quot;&gt;^&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdb082;&quot;&gt;2 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff5e5e;&quot;&gt;- &lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdb082;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#e9fdac;&quot;&gt;x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff5e5e;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdb082;&quot;&gt;0&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffffff;&quot;&gt;$$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff5e5e;&quot;&gt;\end&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;{&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#d0d0d0;&quot;&gt;document&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Este que eu estou produzindo um curso no canal, e pretendo fazer um post para cada aulas, pelo blog, também.&lt;&#x2F;p&gt;
+&lt;p&gt;Ainda falando de códigos, posso utilizar eles em linha, como: Tudo depois de &lt;code&gt;\end{document}&lt;&#x2F;code&gt; não é lido pelo compilador.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;Também temos algumas funções de formatação, como fazer blocos de texto. Assim:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;A definição de insanidade é fazer a mesma coisa repetidamente e esperar resultados diferentes.&amp;quot; - Albert Einstein&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Temos, listas numeradas ou não.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Item &lt;&#x2F;li&gt;
+&lt;li&gt;Outro Item&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Item&lt;&#x2F;li&gt;
+&lt;li&gt;Outro Item&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Além de adicionar imagens (externas ou internar), e até anexar vídeos do Youtube:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;miro.medium.com&#x2F;max&#x2F;4652&#x2F;1*xqr2kki-VvZ-S2cGlNzDLw.jpeg&quot; alt=&quot;Image&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;div class=&quot;youtube&quot;&gt;
+    &lt;iframe src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;4lW0plP2hg4&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;
+    &lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;Vídeos esses que eu ainda estou ainda estou aprendendo a organizar aqui no site, mas só de adicionar já é muito bom!&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;Por fim, mas nem de longe o menos importante. Talvez o que eu vá mais utilizar, o $\LaTeX$ hahaha! &lt;&#x2F;p&gt;
+&lt;p&gt;Eu posso, por exemplo, dizer que a definição de derivada é:
+$$f&#x27;(x) = \lim_{h \to 0} \dfrac{f(x+h) - f(x)}{h}$$&lt;&#x2F;p&gt;
+&lt;p&gt;Ou até resolver uma questão de P.A:&lt;&#x2F;p&gt;
+&lt;p&gt;\begin{align}
+a_{1} &amp;amp;= 15 &amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp; a_{15} &amp;amp;= a_1 + 14\cdot r\\
+r&amp;amp;= 5 &amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp; a_{15} &amp;amp;= 15 + 14\cdot 5\\
+a_{15} &amp;amp;= \,\ ? &amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp; a_{15} &amp;amp;= 15 + 70\\
+S_{15} &amp;amp;= \,\ ? &amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp; a_{15} &amp;amp;= 85\\ \\
+&amp;amp; &amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp; S_{15} &amp;amp;=\dfrac{(a_1 + a_{15})}{2} \cdot 15\\
+&amp;amp; &amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp; S_{15} &amp;amp;=\dfrac{(15 + 85)}{2} \cdot 15\\
+&amp;amp; &amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp; S_{15} &amp;amp;=\dfrac{100}{2} \cdot 15\\
+&amp;amp; &amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp; S_{15} &amp;amp;=750\\
+\end{align}&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;Além de ter a seção lateral com algumas informações, redes sociais, canal, contato, e também uma opção (que ainda vou testar) para aparecer as atualizações do blog naquele feed de noticias do nosso celular. &lt;&#x2F;p&gt;
+&lt;p&gt;No final de cada página, terá um botão do twitter para você compartilhar o post, caso for de seu interesse.&lt;&#x2F;p&gt;
+&lt;p&gt;Por fim, agradeço a você que está lendo, e gostaria que acompanhasse os artigos que virão a sair. O site é totalmente dinâmico, ou seja, se adapta a qualquer tela, assim espero que mesmo no celular estejam tendo uma boa experiência. &lt;&#x2F;p&gt;
+&lt;p&gt;Abraços!&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;Eduardo Adame &lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+    </channel>
+</rss>

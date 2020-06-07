@@ -1,0 +1,12 @@
+[submodule ".\\themes\\zola-clean-blog"]
+	path = .\\themes\\zola-clean-blog
+	url = https://github.com/dave-tucker/zola-clean-blog
+[submodule ".\\themes\\zola-hallo"]
+	path = .\\themes\\zola-hallo
+	url = https://github.com/janbaudisch/zola-hallo
+[submodule "themes/nutshell"]
+	path = themes/nutshell
+	url = https://github.com/kemingy/nutshell.git
+[submodule "themes/themes/hikari"]
+	path = themes/themes/hikari
+	url = https://github.com/waynee95/zola-theme-hikari
