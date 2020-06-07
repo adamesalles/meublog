@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "eduadame.netlify.app"
+base_url = "https://eduadame.netlify.app"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -15,10 +15,6 @@ description = "Um blog para matemáticos e informáticos de plantão"
 title = "Eduardo Adame"
 katex = true
 highlight_theme = "1337"
-#taxonomies = [
-#   {name = "categories", rss = true},
-#   {name = "tags", rss = true},
-#]
 [extra]
 # Put all your custom variables here
 author = "Eduardo Adame"
