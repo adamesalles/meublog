@@ -14,16 +14,32 @@ theme = "hikari"
 description = "Um blog para matemáticos e informáticos de plantão"
 title = "Eduardo Adame"
 katex = true
-highlight_theme = "1337"
+highlight_theme = "base16-ocean-light"
+
+taxonomies = [
+    {name = "categories", rss = true},
+]
+
 [extra]
 # Put all your custom variables here
+
 author = "Eduardo Adame"
+author_full = "Eduardo Adame Salles"
 author_bio = "Buscando sempre aprender, e disseminar o que aprendi. Com 17 anos, estou desde 2013 no Youtube, e sou extremamente apaixonado por matemática e informática."
+
+theme_menu = [
+    {url = "$BASE_URL/categories", name = "Categorias"},
+    {url = "$BASE_URL/archive", name = "Arquivos"},
+    {url = "$BASE_URL/about", name = "Sobre"},
+    {url = "$BASE_URL/projects", name = "Projetos"},
+]
+
 twitter = "AdameS2E"
 github = "adamesalles"
 youtube = "EduardoAdameSalles"
 instagram = "eduadame"
 email = "eadamesalles@gmail.com"
 whatsapp = "5524998182272&text=Ol%C3%A1%2C%20vim%20pelo%20blog.%20Gostaria%20de%20entrar%20em%20contato"
+
 enable_mathjax = true
 auto_render_katex = true

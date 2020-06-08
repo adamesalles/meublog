@@ -2,6 +2,8 @@
 title = "Hello World - Seja bem-vindo ao novo blog"
 date = 2020-06-07T15:02:00Z
 draft = false
+[taxonomies]
+categories = ["Comunicado"]
 +++
 
 # Olá mundo
