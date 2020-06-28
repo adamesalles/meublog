@@ -2,6 +2,8 @@
 title = "Hello World - Seja bem-vindo ao novo blog"
 date = 2020-06-07T15:02:00Z
 draft = false
+[extra]
+author = "Eduardo Adame"
 [taxonomies]
 categories = ["Comunicado"]
 +++
@@ -85,7 +87,7 @@ Também temos algumas funções de formatação, como fazer blocos de texto. Ass
 
 Temos, listas numeradas ou não.
 
-* Item 
+* Item
 * Outro Item
 
 1. Item
@@ -101,7 +103,7 @@ Vídeos esses que eu ainda estou ainda estou aprendendo a organizar aqui no site
 
 ---
 
-Por fim, mas nem de longe o menos importante. Talvez o que eu vá mais utilizar, o $\LaTeX$ hahaha! 
+Por fim, mas nem de longe o menos importante. Talvez o que eu vá mais utilizar, o $\LaTeX$ hahaha!
 
 Eu posso, por exemplo, dizer que a definição de derivada é:
 $$f'(x) = \lim_{h \to 0} \dfrac{f(x+h) - f(x)}{h}$$
@@ -122,13 +124,13 @@ Ou até resolver uma questão de P.A:
 
 ---
 
-Além de ter a seção lateral com algumas informações, redes sociais, canal, contato, e também uma opção (que ainda vou testar) para aparecer as atualizações do blog naquele feed de noticias do nosso celular. 
+Além de ter a seção lateral com algumas informações, redes sociais, canal, contato, e também uma opção (que ainda vou testar) para aparecer as atualizações do blog naquele feed de noticias do nosso celular.
 
 No final de cada página, terá um botão do twitter para você compartilhar o post, caso for de seu interesse.
 
-Por fim, agradeço a você que está lendo, e gostaria que acompanhasse os artigos que virão a sair. O site é totalmente dinâmico, ou seja, se adapta a qualquer tela, assim espero que mesmo no celular estejam tendo uma boa experiência. 
+Por fim, agradeço a você que está lendo, e gostaria que acompanhasse os artigos que virão a sair. O site é totalmente dinâmico, ou seja, se adapta a qualquer tela, assim espero que mesmo no celular estejam tendo uma boa experiência.
 
 Abraços!
 
 ---
- Eduardo Adame 
+ Eduardo Adame
