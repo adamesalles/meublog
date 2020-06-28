@@ -1,0 +1,23 @@
+{% extends "index.html" %}
+
+{% block main %}
+<section class="single-wrap">
+  <article class="single-content" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="feat">
+
+    </div>
+      <h3>404, amigo. Volte para a <a href="https://eduadame.netlify.app/">Home</a></h3>
+    <div id="disqus_thread"></div>
+    {% if page.later %}
+    <a rel="next" href="{{ page.later.permalink }}" id="next">
+      <span class="nav-title nav-title-next">Próximo</span> &rarr;
+    </a>
+    {% endif %}
+    {% if page.earlier %}
+    <a rel="prev" href="{{ page.earlier.permalink }}" id="prev">
+       &larr;<span class="nav-title nav-title-prev">Anterior</span>
+    </a>
+    {% endif %}
+  </article>
+</section>
+{% endblock main %}
