@@ -18,6 +18,7 @@ highlight_theme = "base16-ocean-light"
 
 taxonomies = [
     {name = "categories", rss = true},
+    {name = "postauthor", rss = true},
 ]
 
 [extra]
