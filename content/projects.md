@@ -21,13 +21,26 @@ Se quiser saber mais, segue no instagram acima, e esses vídeos abaixo:
 
 ---
 
+### ATOMCAST: Podcast entre amigos durante pandemia.
+
+Um projeto que eu tenho pensado há tempo, mas somente agora toquei ele de verdade. Assim, segue a descrição do primeiro episódio, e o próprio:
+
+No nosso primeiro episódio do pós-denominado AtomCast, em referência à nossa cidade Angra dos Reis, temos os primeiros testes de um podcast para o diálogo sobre diversos assuntos entre formandos do Ensino Médio de escola pública. Além do mais, enfrentando toda essa situação que nós vivemos, esse podcast será um projeto para aumentar a interação entre nós, que estamos sentindo falta do ambiente escolar. Portanto, será um lugar livre para as opiniões de cada e de possíveis futuros convidados. Lembrando que qualquer pessoa/produto/empresa citada pode entrar em contato caso haja algum desconforto.
+
+<iframe src="https://anchor.fm/eduardo-adame-salles/embed/episodes/ATOMCAST-01---Um-novo-comeo-sempre--uma-nova-aventura-efvpt3/a-a2ikd8a" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+
+---
+
 ### Covid-19: Uma breve comparação
 
 Durante a quarentena, as aulas têm sido a distância, e eu tive que fazer um trabalho de estatística sobre COVID-19. Como os dados que eu tabulei não são fáceis de encontrar, decido deixá-los aqui.
 Eu disponibilizei o meu "trabalho" que pretendi fazê-lo de forma mais profissional e menos "trabalho escolar".
+
 #### Plotando os gráficos:
+
 Diponibilizei um arquivo .tex ensinando como eu os faço utilizando os arquivos .dat, também tem a minha jornada de como aprendi a fazer isso no LaTeX. Eu utilizei o TikZ e o pgfplots.
 Inclua no seu preâmbulo:
+
 ```tex
 \usepackage{tikz}
 \usepackage{pgfplots}
@@ -36,7 +49,9 @@ Inclua no seu preâmbulo:
 % Se quiser utilizar as mesmas configurações que eu use também:
 \pgfplotsset{width=.8\textwidth,compat=1.9}
 ```
+
 E então, basciamente:
+
 ```tex
 \begin{figure}[!h] %Abre o ambiente figura
 	\centering % Para centralizar
@@ -63,14 +78,16 @@ E então, basciamente:
 	\addplot table [x index=0,y index=2] {DATA-AP.dat}; % Adicionando a curva de  óbitos
 	\addlegendentry{Óbitos} % Legenda curva acima
 	\end{axis} % Termina a entrada para os eixos
-	\end{tikzpicture} % Fecha o ambiente TikZ 
+	\end{tikzpicture} % Fecha o ambiente TikZ
 \end{figure} % Fecha o ambiente figura
 ```
+
 Gostaria de agradecer e listar como minha fonte o [Ministério da Saúde](https://covid.saude.gov.br/) e a [Johns Hopkins University](https://coronavirus.jhu.edu/map.html) os dados que eu disponibilizo aqui para todos é entre 22/01/2020 e 30/04/2020. Eu utilizei a tabela da Johns Hopkins e separei país por país colocando-o em uma tabela com seu continente. Além de tabelar o Brasil como um todo, que não está disponível no site do Ministério da Saúde. (Ao menos eu não achei).
 
-Possívelmente, eu devo traduzir esse repo para inglês no futuro, mas por enquanto deixarei assim. Desde que esteja para ajudar alguém, já dou a tarefa como cumprida. 
+Possívelmente, eu devo traduzir esse repo para inglês no futuro, mas por enquanto deixarei assim. Desde que esteja para ajudar alguém, já dou a tarefa como cumprida.
 
-*Este é o README do [repositório](https://github.com/adamesalles/covid19data), dê uma chegada lá
+\*Este é o README do [repositório](https://github.com/adamesalles/covid19data), dê uma chegada lá
 
 ---
+
 **Texto para outros projetos em construção**
