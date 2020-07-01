@@ -50,7 +50,7 @@ Em 2017, apenas 3 anos depois, tive meu primeiro celular com sensor de digital. 
 
 O mais incrível disso, é o preço, que numericamente, se manteve muito parecido. Porém, vamos pra outra história. Além de achar sensores biométricos incríveis, eu achava drones (como disse anteriormente). E essa história, acho que sabem o final.
 
-Mas, se não souber. Primeiramente, visite a página de [projetos](eduadame.netlify.app) que lá tem um texto sobre isso. Eu, junto de alguns colegas na escola técnica ([CEFET](cefet-rj.br)), temos um projeto de extensão, que constrói drones. Eu, como capitão da equipe, tive a honra de liderar a equipe rumo à competição nacional em Itajubá/MG em 2019, tivemos resultados excelêntes, até para veteranos da área. Apesar de a primeira versão do drone ter começado a voar em 2018, mesmo ano em que criamos/criaram a equipe.
+Mas, se não souber. Primeiramente, visite a página de [projetos](eduadame.netlify.app/projects) que lá tem um texto sobre isso. Eu, junto de alguns colegas na escola técnica ([CEFET](cefet-rj.br)), temos um projeto de extensão, que constrói drones. Eu, como capitão da equipe, tive a honra de liderar a equipe rumo à competição nacional em Itajubá/MG em 2019, tivemos resultados excelêntes, até para veteranos da área. Apesar de a primeira versão do drone ter começado a voar em 2018, mesmo ano em que criamos/criaram a equipe.
 
 ---
 
